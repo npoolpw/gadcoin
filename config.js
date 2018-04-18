@@ -1,19 +1,20 @@
-var api = "http://apihost.com:port";
+var api = "http://ca.npool.pw:2320";
 
-var poolHost = "apihost.com";
+var poolHost = "ca.npool.pw";
 
-var blockExplorer = "http://blockexplorer.pw/coin";
+var blockExplorer = "https://blockchain.gadcoin.com.br/";
 
-var cryptonatorWidget = ["BTC-USD", "XMR-USD"];
+var cryptonatorWidget = ["BTC-USD"];
 
 var easyminerDownload = "https://github.com/zone117x/cryptonote-easy-miner/releases/";
 
-var blockchainExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_block";
+var blockchainExplorer = "https://blockchain.gadcoin.com.br/?hash={id}#blockchain_block";
 
-var transactionExplorer = "http://blockexplorer.pw/{symbol}/?hash={id}#blockchain_transaction";
+var transactionExplorer = "https://blockchain.gadcoin.com.br/?hash={id}#blockchain_transaction";
 
 var themeCss = "themes/default-theme.css";
 
 var networkStat = [
-        ["coin.apihost.com", "http://coin.apihost.com:port"]
+        ["npool.pw/gadcoin", "http://ca.npool.pw:2320"],
+        ["pool.gadcoin.com.br", "https://api.gadcoin.com.br"]
 ];
